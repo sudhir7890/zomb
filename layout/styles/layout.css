@@ -21,6 +21,51 @@ File: Layout CSS
 .row4, .row4 a{}
 .row5, .row5 a{}
 
+/* CSS Reset */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* (Just ignore)top banner style */
+.top-banner {
+  text-align: center;
+  background-color: #ea4c4c;
+}
+
+.top-banner a, .top-banner span {
+  display: inline-block;
+}
+
+.top-banner a {
+  width: 100%;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #fff;
+  color: rgba(255, 255, 255, .8);
+}
+
+.top-banner span {
+    width: 107px;
+    height: 33px;
+    line-height: 28px;
+    background-color: #c2ff71;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.top-banner a:hover {
+  color: #fff9e0;
+}
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
